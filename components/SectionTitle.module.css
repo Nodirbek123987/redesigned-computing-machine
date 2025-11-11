@@ -1,0 +1,11 @@
+.wrapper {
+    text-align: center;
+    margin: 60px 0 30px;
+  }
+  
+  .wrapper h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+  }
+  

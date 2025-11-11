@@ -1,0 +1,30 @@
+.restaurants {
+    padding: 20px 60px;
+  }
+  
+  .list {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    overflow: hidden;
+    text-align: center;
+    width: 220px;
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h4 {
+    padding: 12px 0;
+    font-weight: 500;
+  }
+  

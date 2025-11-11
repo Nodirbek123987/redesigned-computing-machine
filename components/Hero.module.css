@@ -1,0 +1,49 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    flex-wrap: wrap;
+  }
+  
+  .text {
+    max-width: 500px;
+  }
+  
+  .text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .delivery, .takeout {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    background: white;
+  }
+  .delivery {
+    border-color: #ffcc00;
+  }
+  .delivery:hover, .takeout:hover {
+    background: #fff6c2;
+  }
+  
+  .features {
+    list-style: none;
+    margin-top: 15px;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  .image {
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  
